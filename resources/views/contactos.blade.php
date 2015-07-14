@@ -1,0 +1,70 @@
+@extends('templates.estructura')
+@section('contenido')
+
+<!-- page-top start-->
+			<!-- ================ -->
+			<div class="page-top">
+				<div class="container">
+					<div class="row"><h1 class="text-center title-mor">Contáctenos</h1>
+						<div class="col-md-7">
+							
+					
+					</small></h1><br>
+					<div class="contact-form">
+										<form id="contact-form" role="form">
+											<div class="form-group has-feedback">
+												<label for="name">Nombre*</label>
+												<input type="text" class="form-control" id="name" name="name" placeholder="">
+												<i class="fa fa-user form-control-feedback"></i>
+											</div>
+											<div class="form-group has-feedback">
+												<label for="email">Email*</label>
+												<input type="email" class="form-control" id="email" name="email" placeholder="">
+												<i class="fa fa-envelope form-control-feedback"></i>
+											</div>
+											<div class="form-group has-feedback">
+												<label for="subject">Asunto*</label>
+												<input type="text" class="form-control" id="subject" name="subject" placeholder="">
+												<i class="fa fa-navicon form-control-feedback"></i>
+											</div>
+											<div class="form-group has-feedback">
+												<label for="message">Mensaje*</label>
+												<textarea class="form-control" rows="6" id="message" name="message" placeholder=""></textarea>
+												<i class="fa fa-pencil form-control-feedback"></i>
+											</div>
+											<input type="submit" value="Submit" class="btn btn-default">
+										</form>
+									</div>
+							</div>
+
+
+<p><p>
+						<div class="col-md-4">
+
+
+							<center><img src="images/nuestrarazon.jpg" width="280" class="img-responsive"></center>
+						<br><br>
+						<b>Patricia Mariño</b><br>
+						<i class="glyphicon glyphicon-phone"></i> +57 314 4720657<br>
+						
+							pmarino@hoteltotal.co<br>
+							<p><br>
+								<b>Hernando Gómez</b><br>
+								<i class="glyphicon glyphicon-phone"></i> +57 317 501 5180<br>
+								hgomez@hoteltotal.co<br>
+
+
+						</div>
+						</div>	
+
+
+
+							
+			
+								</div>							
+							</div>
+							</div>
+		
+			<!-- page-top end -->
+
+@stop
